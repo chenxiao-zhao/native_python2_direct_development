@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<title>READ ME</title>
+<script src="https://cdn.jsdelivr.net/npm/texme@0.7.0"></script>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<textarea id="content" style="height:100%;width:100%"></textarea>
+<script>
+    $.get("readme.md", function (response) {
+        $("#content").html(response);
+    });
+</script>

@@ -21,18 +21,18 @@ $ sudo -s
 $ export URL="http://localhost"
 $ export TIME_ZONE="Asia/Shanghai"
 $ export LOG_LEVEL="error"
-$ apt-get install ./native_python2_direct_development_2.2_amd64.deb
+$ apt-get install ./native-python2-direct-development_2.2_amd64.deb
 ```
 
 # Verify
 
 ```sh
 $ appc query | grep native_python2_direct_development
-2  root  start  21470 0      native_python2_direct_development       /opt/personal/native_python2_direct_development/native_python2_direct_development
+2  root  start  21470 0      native_python2_direct_development       /opt/personal/native_python2_direct_development/native_python2_direct_development --error
 ```
 
 # Uninstall
 
 ```sh
-$ sudo apt-get remove native_python2_direct_development
+$ sudo apt-get remove native-python2-direct-development
 ```

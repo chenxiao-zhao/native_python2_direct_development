@@ -2,7 +2,7 @@
 
 # Features
 
-  - Process the continuous data output from the AI box and convert it into statistics every 5 minutes
+  - Native python directly develops the deb package
 
 # Build
 
@@ -11,8 +11,14 @@ $ sudo -s
 $ git clone https://github.com/chenxiao-zhao/native_python2_direct_development.git
 $ cd native_python2_direct_development/
 $ make
+or
+$ wget http://file.achang.tech/Package/last/native_python2_direct_development/native-python2-direct-development_2.2_amd64.deb 
 ```
   - install package is **native_python2_direct_development_2.2_amd64.deb**
+  
+# Prerequirements
+
+Installing the environment requires [Application Manager](https://github.com/laoshanxi/app-manager).
 
 # Install
 
